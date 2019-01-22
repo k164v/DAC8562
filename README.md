@@ -8,4 +8,4 @@ I am currently using a breakout board look like this:
 Ideally it should work with all the DAC8562 chip.
 
 ## Credits
-This library use @machinesalem 's TLV5618 DAC library for arduino as reference.
+This library use @machinesalem 's TLV5618 DAC library as reference.
