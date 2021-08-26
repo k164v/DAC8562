@@ -32,10 +32,13 @@ void DAC8562::begin()
   SPI.begin();
   SPI.setDataMode(SPI_MODE1);
   SPI.setBitOrder(MSBFIRST);
-  initialize();
+  
   /* !Chip select (low to enable) */
   pinMode(_cs_pin, OUTPUT);
   digitalWrite(_cs_pin,  1);
+  
+  /* Initialize DAC8592 */
+  initialize();
 };
 
 
